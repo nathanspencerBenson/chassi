@@ -11,84 +11,89 @@
     <header>
         <a href="#"><img src="Bilder/logo.png" class="logo"></a>
             <ul>
-                <li><a href="Eissaison 2020">Eissaison 2020</a></li>
-                <li><a href="Eispalast">Eispalast</a></li>
-                <li><a href="Lieferservice">Lieferservice</a></li>
-                <li><a href="Kontakt">Kontakt</a></li>
+                <li><a href="#">Eissaison 2020</a></li>
+                <li><a href="#">Eispalast</a></li>
+                <li><a href="#">Lieferservice</a></li>
+                <li><a href="#">Kontakt</a></li>
             </ul>
     </header>
     <section class="hauptfoto">
-        <button href="#">Discover our Flavours &#8680;</button>
+            <a href="#geschmacks"><button>Unsere Eissorten &#8680;</button></a>
         <p>Samstag, 4. April 2020</p>
         <p>Nach der Winterpause sind wir wieder für Sie da, <br> im Straßenverkauf Schlossstraße 45a</p>
 
     </section>
     <section class="eiskarussel">
-        <h2>Neu in dieser Sasion <br> Eis aus heimischen Zutaten</h2>
 
-        <div class="container">
-        
-            <input type="radio" id="i1" name="images" checked />
-            <input type="radio" id="i2" name="images" />
-            <input type="radio" id="i3" name="images" />
-            <input type="radio" id="i4" name="images" />
-            <input type="radio" id="i5" name="images" />	
+        <h1>
+            Neu in dieser Saison <br> Eis aus heimischen Zutaten
+        </h1>
+    
+        <div class="slider">
+            <input type="radio" name="slide_switch" id="id1"/>
+            <label for="id1">
+                <img src="./Bilder/Bilder-Eiskarussel-kleine/Brombeerre.jpg" width="100"/>
             
-            <div class="slide_img" id="one">			
-                    
-                    <img src="./Bilder/Bilder-Eiskarussel/Brombeerre.jpg">
-                    <h2>Brombeere</h2>
-                    <p>Die Beere aus den Wäldern der Mecklenburgischen Schweiz kombinert mit Tonik bohne und einem Hauch Zimtblüte.</p>
-                    
-                        <label class="prev" for="i5"><span>&#x2039;</span></label>
-                        <label class="next" for="i2"><span>&#x203a;</span></label>	
-                
+            </label>
+            <img src="./Bilder/Bilder-Eiskarussel-kleine/Brombeerre.jpg"/>
+            <div class="eiskarussel_text">
+                <h1>Brombeerre</h1>
+                <p>Die Beere aus den Wäldern der Mecklenburgischen Schweiz, kombiniert mit Tonkabohne
+                    und einem Hauch Zimtblüte: Ein unbeschreiblicher Genuss!
+                </p>
             </div>
             
-            <div class="slide_img" id="two">
-                
-                    <img src="./Bilder/Bilder-Eiskarussel/Haselnuss.jpg " >
-                    <h2>hello</h2>
-                    
-                        <label class="prev" for="i1"><span>&#x2039;</span></label>
-                        <label class="next" for="i3"><span>&#x203a;</span></label>
-                
+            <input type="radio" name="slide_switch" id="id2" checked="checked"/>
+            <label for="id2">
+                <img src="Bilder/Bilder-Eiskarussel-kleine/Haselnuss.jpg" width="100"/>
+            </label>
+            <img src="/Bilder/Bilder-Eiskarussel-kleine/Haselnuss.jpg"/>
+            <div class="eiskarussel_text">
+                <h1>Haselnuss</h1>
+                <p>Geröstete Nüsse gepaart mit Salzkaramell, Gewürzen und Splittern schwarzer Schokolade:
+                    Ein Eis mit großem Charakter!
+                </p>
             </div>
-                    
-            <div class="slide_img" id="three">
-                    <img src="./Bilder/Bilder-Eiskarussel/Minze.jpg">	
-                    
-                        <label class="prev" for="i2"><span>&#x2039;</span></label>
-                        <label class="next" for="i4"><span>&#x203a;</span></label>
+            
+            <input type="radio" name="slide_switch" id="id3"/>
+            <label for="id3">
+                <img src="./Bilder/Bilder-Eiskarussel-kleine/Minze.jpg" width="100"/>
+            </label>
+            <img src="./Bilder/Bilder-Eiskarussel-kleine/Minze.jpg"/>
+            <div class="eiskarussel_text">
+                <h1>Minze</h1>
+                <p>Wilde Feldminze mit saisonalen Früchten wie Pfirsich, Mispel und Quitte aus der Region:
+                    Immer wieder ein neues Geschmackserlebnis!
+                </p>
             </div>
-        
-            <div class="slide_img" id="four">
-                    <img src="./Bilder/Bilder-Eiskarussel/Rhabarber.jpg">	
-                    
-                        <label class="prev" for="i3"><span>&#x2039;</span></label>
-                        <label class="next" for="i5"><span>&#x203a;</span></label>
+            
+            <input type="radio" name="slide_switch" id="id4"/>
+            <label for="id4">
+                <img src="./Bilder/Bilder-Eiskarussel-kleine/Rhabarber.jpg" width="100"/>
+            </label>
+            <img src="./Bilder/Bilder-Eiskarussel-kleine/Rhabarber.jpg"/>
+            <div class="eiskarussel_text">
+                <h1>Rhabarber</h1>
+                <p>Karamellisierter Rhabarber kombiniert mit Limette und abgerundet mit Sauerrahm:
+                    Erfrischend anders!
+                </p>
             </div>
-        
-            <div class="slide_img" id="five">
-                    <img src="./Bilder/Bilder-Eiskarussel/Sanddorn.jpg">	
-                    
-                        <label class="prev" for="i4"><span>&#x2039;</span></label>
-                        <label class="next" for="i1"><span>&#x203a;</span></label>
-        
+            
+            <input type="radio" name="slide_switch" id="id5"/>
+            <label for="id5">
+                <img src="./Bilder/Bilder-Eiskarussel-kleine/Sanddorn.jpg" width="100"/>
+            </label>
+            <img src="./Bilder/Bilder-Eiskarussel-kleine/Sanddorn.jpg"/>
+            <div class="eiskarussel_text">
+                <h1>Sanddorn</h1>
+                <p>Wo sollte dieses leicht herbe Eis besser schmecken als in Ludwigslust, der Stadt des
+                    Sanddorns?
+                </p>
             </div>
-        
-            <div id="nav_slide">
-                <label for="i1" class="dots" id="dot1"></label>
-                <label for="i2" class="dots" id="dot2"></label>
-                <label for="i3" class="dots" id="dot3"></label>
-                <label for="i4" class="dots" id="dot4"></label>
-                <label for="i5" class="dots" id="dot5"></label>
-            </div>
-                
         </div>
     </section>
     <section>
-        <div class="geschmacks_container">
+        <div class="geschmacks_container" id="geschmacks">
             <div class="geschmacksbild"></div>
             <div class="geschamcks_text">
                 <h2>Geschmacksrichtungen</h2>
@@ -123,13 +128,13 @@
                 Nach zehn Stempeln genießen Sie eine Kugel mit Sahne gratis. <br>
                 Hier können Sie sich Ihre bonuskarte ausdrucken.
             </p>
-            <button class="button_bonuskarte">((Link))</button>
+            <a href="#"><button class="button_bonuskarte">((Link))</button></a>
 
             <h3>Lieferservice</h3>
             <p>Nutzen Sie auch diese Saison unseren Lieferservice. <br>
                 Ab einem Mindestbestellwert von 20 Euro liefern wir Ihnen Ihr Lieblingsie kostenlos.
             </p>
-            <button class="button_lieferservice"> Mehr ((Link))</button>
+            <a href="#"><button class="button_lieferservice"> Mehr ((Link))</button></a>
 
             <h3>Unsere Öffnungszeiten:</h3>
             <p>Montag bis Freitag 12 bis 20 Uhr <br>
